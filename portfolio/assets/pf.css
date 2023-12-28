@@ -1,0 +1,82 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(../assets/Ubuntu-Medium.ttf);
+}
+*{
+    font-family: ubuntu;
+    cursor:url(../assets/cursor/arrow.cur),auto;
+}
+body{
+    background-image: url(../images/wp2939900-login-wallpaper.jpg);
+    background-size: cover;
+    height: 98dvh;
+    background-repeat: no-repeat;
+}
+nav{
+    font-weight: 500;
+    margin: 0vh;
+    display:flex;
+    color: white;
+}
+label{
+    font-size: xx-large;
+    color: #f75b00;
+    padding-left: 5px;
+}
+nav{
+   
+    backdrop-filter: blur(50px);    
+}
+li{
+    overflow:auto;
+    display: inline-flex;
+   font-size: medium;
+   padding: 7px;
+
+}
+li:hover{
+    color: #f75900;
+    transition: all  ease-in 1s ;
+    cursor: url(../assets/cursor/link.cur),pointer;
+
+
+}
+ul{
+    margin-left: 90dvh;
+
+}
+.sum{
+color: aliceblue;
+padding: 13% 70px;
+user-select: none;
+    
+}
+.down{
+    width: auto;
+    padding: 8px;
+    background-color: black;
+    line-height: 10vh;
+    text-decoration: none;
+    /* color: cornsilk; */
+    color: transparent;
+    border-radius: 5px;
+}
+.down:hover{
+    user-select: auto;
+    color: cornsilk;
+    transition: all 0.5s;
+    cursor: url(../assets/cursor/link.cur),pointer;
+    box-shadow: 0px 0px 0px 3px palegoldenrod;
+   
+
+}
+
+a{
+    color:white;
+}
+.down:active{
+cursor: url(/assets/cursor/wait.ani)auto;
+}
+label[for="YASH"]{
+    user-select: none;
+} 
